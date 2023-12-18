@@ -1,15 +1,9 @@
-// to check number is even or odd
-let num=5;
-if(num%2==0){
-    console.log('number is even')
-}else{
-    console.log('number is odd')
-}
+// find the largest of two number using if else
+let num=12;
+let num1=11;
 
-// to check variable is number or not
-let vari='12';
-if(typeof(vari)=='number'){
-    console.log('type of variable is number')
+if (num>num1){
+    console.log(`${num} is greater than ${num1}`)
 }else{
-    console.log('type of varibale is not a number')
+    console.log(`${num1} is greater than ${num}`)
 }
