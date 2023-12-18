@@ -7,4 +7,3 @@ console.log(typeof(age));
  console.log(typeof ageInString)
  let nameInNumber=Number(name);
  console.log(typeof nameInNumber)
-
