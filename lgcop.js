@@ -60,3 +60,21 @@ let userId;
 
 console.log(userName ?? userId);
 console.log(1 && 2);
+
+// Task
+
+let whoIsThere='Admin';
+if(whoIsThere=="Admin"){
+   let pass="the master ";
+   if(pass==="the master"){
+      console.log('Welcome')
+   }else if((pass==='') || (pass===null)){
+      console.log('Canceled')
+   }else{
+      console.log('wrong pass')
+   }
+}else if((whoIsThere==='') || (whoIsThere===null)){
+   console.log("canceled")
+}else{
+   console.log('dont know who you are')
+}
