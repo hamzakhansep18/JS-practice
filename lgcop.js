@@ -53,3 +53,10 @@ console.log(false && false);
 
 console.log(!true);
 console.log(!false);
+
+// Nullish operator
+let userName;
+let userId;
+
+console.log(userName ?? userId);
+console.log(1 && 2);
