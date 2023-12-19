@@ -13,3 +13,17 @@ switch(x){
         console.log('How are you')
         break;
 }
+// second task
+let a=2;
+switch(a){
+    case 1:
+        console.log('0')
+        break;
+    case 2:
+        console.log('1')
+        break;
+    case 3:
+    case 4:
+        console.log('2,3')
+        break;
+}
