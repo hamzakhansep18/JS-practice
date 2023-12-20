@@ -40,3 +40,17 @@ function multiplication(a,b=4){
 }
 console.log(multiplication(2))
 console.log(multiplication(2, 6))
+// Arrow function
+ let func=(a,b)=>{
+    return a+b;
+ }
+ console.log(func(2,10));
+
+let fact=(a)=>{
+    if(a==1 || a== 0){
+        return 1;
+    }else{
+        return a*fact(a-1);
+    }
+}
+console.log(fact(3));
