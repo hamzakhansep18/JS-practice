@@ -45,3 +45,16 @@ console.log(obj4);
  dctData.internee="pseb";
  console.log(dctData)
 
+ //constructor function 
+
+function User(name, lastName){
+    this.name=name;
+    this.lastName=lastName;
+}
+let user=new User('Hamza');
+
+let LastName=new User('khan');
+let newuser= new User('ibrar');
+console.log(newuser.name)
+console.log(user.name);
+console.log(LastName.name);
